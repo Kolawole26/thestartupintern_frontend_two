@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+header {
+  background-color: #F8F8F8;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  padding: 0 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container nav {
+  
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content:space-between;
   align-items: center;
+  
+ 
+}
+
+nav .logo h1 {
+  color: #720C23;
+  font-size: 40px;
+}
+nav .logo a {
+  text-decoration: none;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #000000;
+  font-size: 20px;
+}
+nav ul a:hover {
+  color: #720C23;
+}
+
+.wrapper {
+  padding: 0 60px;
+}
+
+.content {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 40px 0;
 }
 
-.App-link {
-  color: #61dafb;
+section h2 {
+  font-size: 25px;
+  padding: 15px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section .container {
+  padding: 30px 0;
+  
+}
+section .container h3 {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+section .container form {
+ display: inline-block;
+ 
+}
+section .container form  label {
+ padding: 10px 0;
+ display: block;
+ font-size: 20px;
+
+}
+section .container form  input {
+ padding: 15px 90px;
+ margin-bottom: 20px;
+ border: 1px solid #707070;
+
+}
+section .btn {
+  display: block;
+  background-color: #000000;
+  padding: 15px 60px;
+  border: 1px solid #707070;
+  color: #fff;
+  font-size: 20px;
+  width: 70%;
+  margin-left: 55px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+section .btn:hover {
+  background-color: #720C23;
+  
 }

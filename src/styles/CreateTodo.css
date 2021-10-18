@@ -1,0 +1,38 @@
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.form .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .form-group {
+    width: 30%;
+    padding: 5px;
+    
+}
+.form .form-group input {
+    padding: 15px 80px;
+    width: 60%;
+    border: 1px solid #707070;
+    
+}
+.form .form-group-1 label {
+    display: block;
+    margin-top: 30px;
+    
+}
+.form .form-group-1 input {
+    padding: 50px 60px;
+    width: 90%;
+    margin-bottom: 30px;
+    
+}
+.form .btn {
+    width: 30%;
+    margin-left: 500px;
+}

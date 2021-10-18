@@ -1,0 +1,39 @@
+.display-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.box {
+    max-width: 350px;
+    border: 1px solid #720C23;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+    min-height: 180px;
+}
+.box .date {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 600;
+    right: 20px; 
+}
+.box h3 {
+    padding-top: 30px;
+    font-size: 16px;
+}
+.box .details {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.box button {
+    padding: 10px 26px;
+    background-color: #000;
+    color: #fff;
+    border: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    position: absolute;
+    right: 20px;
+}
